@@ -1,0 +1,74 @@
+PLC’s :
+Programmable Logic Controller (PLC) is an industrial
+computer that monitors inputs, makes decisions based on its
+program and controls outputs to automate a processor or a machine
+The automation of many different processes, such as controlling
+machines or factory assembly lines, is done through the use of
+small computers called programmable logic controllers (PLCs).
+MAJOR PARTS OF PLC’S :
+1.) Power supply
+2.) CPU
+3.) input modules
+4.) output modules
+5.) programming devices
+6.) Memory Unit 
+FUNCTIONS OF EACH BLOCK :
+POWER SUPPLY :
+The power supply provides power for the PLC system.
+Common power levels used were 24 volts DC or 120 VAC and
+there are other voltages like for communication we have 3.3v and
+5v and for the other modules in the system we use 12v and 24v
+and it also converts +15v and -15v. 
+CENTRAL PROCESSING UNIT (CPU) :
+It is the brain of PLC and governs the activities of the entire
+PLC systems
+The CPU consists of following blocks:
+Arithmetic Logic Unit (ALU), Internal
+memory of CPU and Internal timers counters
+and Flags.
+The various operations performed are:
+Scanning I/O bus traffic control, Program
+execution, Peripheral and External device communication. Data
+handling and self diagnostics. 
+INPUT MODULES :
+The carry signals from the process into the controller.
+Ex : Switches, Pushbuttons, Sensors.
+The input from the field device is received on the input module.
+• The input signal could be digital input signal (0/1) or it could be
+analog input signal (4 to 20 mA, 0 to 10V).
+• The PLC is a digital device and the CPU of the PLC can
+withstand voltage of 5V.
+• The Input module receives the input signal from the field devices
+which passes through the isolation barrier in the module and is
+then convert to the required 5V and then sent to the PLC.
+• The isolation barrier prevents the external events from
+interfering with the PLC and causing a module failure.
+• In the PLC it si stored ni the data memory as a binary value1 for
+5V and binary value 0 for 0V.
+OUTPUTMODULES :
+It convert control instructions a signal that can be used by
+actuators.
+Ex. : Indicator Lamp, Motor
+The value of either 0 or 1 stored in the data memory after
+execution of the program is sent to the output module; 
+The output module also contains is the isolation barrier which
+is used to project the PLC from external interference.
+The signal from the PLC is converted to corressponding
+analouge or digital signal. According to the module to which it is
+connected.
+PROGRAMMING DEVICE :
+The programming terminal is used for programming the PLC
+and monitoring/sequencing PLCs operation.
+MEMORY UNIT :
+The memory of the PLC has
+• Program memory: The Ladder Logic program downloaded wil be
+stored ni this memory
+PLC PROGRAMMING :
+There are many programming languages available, but the
+commonly used language is is ladder diagram for PLC. They are ;
+1.) Ladder Logic Programming
+2.) Instruction List Programming
+3.) Structured Text Programming
+4.) Sequential Function Charts
+5.) Functional Block Programming
+6.) Boolean Programming
